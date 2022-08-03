@@ -62,7 +62,8 @@ def toss_coin():
     random_num = random.randint(0, 2)
     if random_num == 1:
         return 'Head'
-    return 'Tail'
+    else:
+        return 'Tail'
 def read_input():
     my_input = input(MESSAGE)
     if my_input.lower() == 'e':
