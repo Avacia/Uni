@@ -58,7 +58,7 @@ def get_rand():
     """TODO: Add your code here 
         Hint: Using random.randint() function.
     """
-    my_randint = 0
+    my_randint = random.randint(0, 1000000)
     return my_randint
 def toss_coin():
     '''Return either Head or Tail'''
