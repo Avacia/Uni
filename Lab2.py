@@ -55,9 +55,6 @@ def get_factorial(value: int):
     return factorial
 def get_rand():
     '''Returns a random integer.'''
-    """TODO: Add your code here 
-        Hint: Using random.randint() function.
-    """
     my_randint = random.randint(0, 1000000)
     return my_randint
 def toss_coin():
@@ -65,7 +62,8 @@ def toss_coin():
     random_num = random.randint(0, 2)
     if random_num == 1:
         return 'Head'
-    return 'Tail'
+    else:
+        return 'Tail'
 def read_input():
     my_input = input(MESSAGE)
     if my_input.lower() == 'e':
