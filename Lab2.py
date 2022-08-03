@@ -62,11 +62,10 @@ def get_rand():
     return my_randint
 def toss_coin():
     '''Return either Head or Tail'''
-    """TODO: Add your code here
-        Hint: Using random.randint() function.
-    """
-    coin = 'Head'
-    return coin
+    random_num = random.randint(0, 2)
+    if random_num == 1:
+        return 'Head'
+    return 'Tail'
 def read_input():
     my_input = input(MESSAGE)
     if my_input.lower() == 'e':
